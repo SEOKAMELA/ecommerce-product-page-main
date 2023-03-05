@@ -10,8 +10,8 @@ fetch('/views/components/header/header.html')
 	});
 
 // load body.html
-// fetch('body.html')
-// 	.then(response => response.text())
-// 	.then(data => {
-// 		main.innerHTML = data;
-// 	});
+fetch('body.html')
+	.then(response => response.text())
+	.then(data => {
+		main.innerHTML = data;
+	});
