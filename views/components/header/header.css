@@ -1,5 +1,5 @@
 .header {
-	background-color: #ccc;
+	background-color: orange;
 	padding: 10px;
 	display: flex;
 	justify-content: space-between;
@@ -10,7 +10,9 @@
 	max-width: 100%;
 	height: auto;
 }
-
+.menu {
+	margin-right: 700px;
+}
 .menu ul {
 	list-style-type: none;
 	margin: 0;
