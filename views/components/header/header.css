@@ -1,0 +1,42 @@
+.header {
+	background-color: #ccc;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo img {
+	max-width: 100%;
+	height: auto;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+.menu li {
+	margin-right: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #333;
+}
+
+.user-options {
+	display: flex;
+}
+
+.user-options .profile,
+.user-options .cart {
+	margin: 0 10px;
+}
+
+.user-options a {
+	text-decoration: none;
+	color: #333;
+}
