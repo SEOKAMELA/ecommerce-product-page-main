@@ -1,18 +1,24 @@
 .header {
-	background-color: orange;
-	padding: 10px;
+	/* background-color: #f3ab26; */
+	padding: 10px 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+.menu {
+  margin-right: 600px;
 }
 
 .logo img {
 	max-width: 100%;
 	height: auto;
 }
-.menu {
-	margin-right: 700px;
-}
+
 .menu ul {
 	list-style-type: none;
 	margin: 0;
@@ -21,7 +27,7 @@
 }
 
 .menu li {
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .menu a {
@@ -31,14 +37,18 @@
 
 .user-options {
 	display: flex;
+	align-items: center;
 }
 
 .user-options .profile,
 .user-options .cart {
-	margin: 0 10px;
+	margin: 0 5px;
 }
 
-.user-options a {
+.user-options .profile a,
+.user-options .cart a {
+	display: block;
 	text-decoration: none;
 	color: #333;
 }
+

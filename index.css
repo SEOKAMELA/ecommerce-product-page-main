@@ -1,13 +1,14 @@
-.container {
-    display: flex;
-    flex-direction: row;
-  }
-  .left {
-    flex: 1;
-    background-color: lightblue;
-  }
-  .right {
-    flex: 1;
-    background-color: lightgreen;
-  }
-  
+.col1 img {
+  width: 100%; /* make the image fill the column */
+  height: auto; /* maintain the aspect ratio */
+}
+
+.col2 .image-row {
+  display: flex; /* display the images in a row */
+  justify-content: space-between; /* space the images evenly */
+}
+
+.col2 .image-row img {
+  width: 30%; /* adjust the image width as needed */
+  height: auto; /* maintain the aspect ratio */
+}
