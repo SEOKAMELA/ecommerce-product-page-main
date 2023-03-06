@@ -83,3 +83,48 @@
   font-size: 16px;
   line-height: 1.5;
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.cart-btn {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.quantity-btns {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-btns button {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.quantity-btns button i {
+  color: #000;
+}
+
+.item-count {
+  font-size: 16px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+}
